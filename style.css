@@ -111,8 +111,8 @@ main .section-one .screen-img {
   width: 40%;
 }
 main .section-one .screen-img img {
-  width: 440px;
-  height: 480px;
+  width: 70%;
+  height: 100%;
 }
 main .section-one span {
   font-size: 10px;
@@ -188,7 +188,8 @@ main .section-two .container ul li p {
 }
 main .section-three {
   width: 100%;
-  height: 950px;
+  height: -moz-max-content;
+  height: max-content;
   background-color: #EFEFEF;
 }
 main .section-three .container {
@@ -216,8 +217,6 @@ main .section-three .container .payment-opt li img {
 }
 main .section-three .container .card {
   width: 100%;
-  height: -moz-max-content;
-  height: max-content;
 }
 main .section-three .container .card ul {
   height: 100%;
@@ -307,7 +306,7 @@ main .section-three .container .discount-eligible {
   background-color: #ffffff;
   border-radius: 10px;
   width: 70%;
-  height: 85px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   padding: 15px;
